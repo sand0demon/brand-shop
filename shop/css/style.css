@@ -12,6 +12,32 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+input,
+textarea {
+    outline: none;
+}
+
+input:active,
+textarea:active {
+    outline: none;
+}
+
+:focus {
+    outline: none;
+}
+
+textarea {
+    resize: none;
+}
+
+textarea {
+    resize: vertical;
+}
+
+textarea {
+    resize: horizontal;
+}
+
 .container {
     max-width: 1160px;
     padding: 0 10px;
@@ -430,4 +456,5 @@ body {
     padding: 7px;
     flex-grow: 1;
     font-family: 'Lato', sans-serif;
+    cursor: pointer;
 }
